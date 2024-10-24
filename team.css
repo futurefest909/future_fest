@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #000000;
+}
+header {
+    background: #fbcb77;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo img {
+    width: 290px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+
+
+footer {
+    background: #fbcb77;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 680px;
+}

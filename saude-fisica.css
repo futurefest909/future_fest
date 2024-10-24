@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #000000;
+}
+
+header {
+    background: #fbcb77;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 290px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos gerais da seção */
+#saude-fisica {
+    padding: 20px; /* Adiciona espaço interno de 20 pixels ao redor do conteúdo da seção */
+    background-color: #f9f9f9; /* Define uma cor de fundo suave para a seção */
+}
+
+/* Estilo para os títulos principais da seção */
+h1 {
+    font-size: 2.5em; /* Tamanho da fonte para o título principal */
+    color: #2c3e50; /* Cor do texto do título principal */
+    text-align: center; /* Centraliza o texto do título */
+    margin-bottom: 20px; /* Margem inferior de 20 pixels para separar do conteúdo abaixo */
+}
+
+/* Estilo para os subtítulos dos tópicos */
+h2 {
+    font-size: 2em; /* Tamanho da fonte para subtítulos */
+    color: #34495e; /* Cor do texto dos subtítulos */
+    margin-top: 30px; /* Margem superior de 30 pixels para separar do conteúdo acima */
+    margin-bottom: 10px; /* Margem inferior de 10 pixels para separar do conteúdo abaixo */
+}
+
+/* Estilo para os parágrafos de descrição */
+p {
+    font-size: 1.1em; /* Tamanho da fonte para parágrafos */
+    color: #555; /* Cor do texto dos parágrafos */
+    line-height: 1.6; /* Altura da linha para melhorar a legibilidade */
+    margin-bottom: 15px; /* Margem inferior de 15 pixels para separar do próximo elemento */
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: disc; /* Define o estilo de marcadores da lista como bolinhas */
+    margin-left: 20px; /* Indentação à esquerda de 20 pixels para listas */
+}
+
+/* Estilo para os itens da lista */
+li {
+    font-size: 1em; /* Tamanho da fonte para itens da lista */
+    color: #333; /* Cor do texto dos itens da lista */
+    margin-bottom: 5px; /* Margem inferior de 5 pixels para separar os itens da lista */
+}
+
+/* Estilo para a conclusão */
+h3 {
+    font-size: 1.5em; /* Tamanho da fonte para o título de conclusão */
+    color: #2c3e50; /* Cor do texto do título de conclusão */
+    margin-top: 30px; /* Margem superior de 30 pixels para separar do conteúdo acima */
+}
+
+.service-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+ 
+.service-card2 {
+    background: white;
+    margin: 20px; /* Margin between cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 250px; /* Width of each card */
+    text-align: center; /* Center text in cards */
+}
+ 
+.service-card2:hover {
+    background-color: #e9ec36;
+    cursor: pointer;
+}
+
+a {
+    color: inherit; /* Inherit usa a cor do elemento pai */
+    text-decoration: none; /* Remove o sublinhado */
+}
+ 
+
+ 
+
+
+
+
+
+
+footer {
+    background: #fbcb77;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 130px;
+}
